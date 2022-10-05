@@ -1,5 +1,3 @@
-# vue_movie_first
-
 # Toy Project 2: MovieFlix
 
 # Project 개발 배경
@@ -17,7 +15,8 @@
 
 1. 입문하고 1개월 이내 외관상 하기 이미지와 최대한 비슷하게 구현.
 
-![unnamed.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11185e6a-77b7-4655-a6aa-bae6292d11a1/unnamed.jpg)
+![unnamed](https://user-images.githubusercontent.com/102448185/194033961-e6c65200-a739-4097-b5a2-389ae33ac3b8.jpg)
+
 
 # 과정
 
@@ -32,16 +31,19 @@
 # 구현한 사이트
 
 1. 메인 페이지
+![Screenshot 2022-10-05 at 18 51 37](https://user-images.githubusercontent.com/102448185/194033750-21766c9a-a341-4ffa-84ef-e40d103565e8.jpg)
 
-[]()
+
 
 1. 영화 디테일 페이지
 
-![Screenshot 2022-10-05 at 18.51.13.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ac3dcb6-8113-47d6-adab-e4d3e8d56f89/Screenshot_2022-10-05_at_18.51.13.jpg)
+![Screenshot 2022-10-05 at 18 51 13](https://user-images.githubusercontent.com/102448185/194033835-20a320dc-f6c0-435b-9815-94e9aed46cd5.jpg)
+
 
 1. 검색 페이지
 
-![Screenshot 2022-10-05 at 18.51.29.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/159a1fc8-fd32-4b42-a941-2f43fe3d91cd/Screenshot_2022-10-05_at_18.51.29.jpg)
+![Screenshot 2022-10-05 at 18 51 29](https://user-images.githubusercontent.com/102448185/194033874-bf389ba4-29e4-4ac2-9655-d68d69b4b42b.jpg)
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
