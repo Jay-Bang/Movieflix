@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Main from "../components/MainView.vue";
 import MovieDetail from "../components/MovieDetail.vue";
 import SearchView from "../components/SearchView.vue";
-import HighlightSection from "../components/HighlightSection.vue";
+// import HighlightSection from "../components/HighlightSection.vue";
 
 const routes = [
   {
@@ -22,11 +22,11 @@ const routes = [
     name: "Search",
     component: SearchView,
   },
-  {
-    path: "/highlight",
-    name: "highlight",
-    component: HighlightSection,
-  },
+  // {
+  //   path: "/highlight",
+  //   name: "highlight",
+  //   component: HighlightSection,
+  // },
 ];
 const router = createRouter({
   history: createWebHistory(),

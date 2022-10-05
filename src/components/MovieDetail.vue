@@ -18,7 +18,7 @@
       <div class="ml-4 w-75 bgbox jb">
         <h1 class="movie-title">{{ pushDatas.title }}</h1>
         <div class="movie-information-wrapper mt-4 d-flex">
-          <div>{{ pushDatas.release_date.split("-")[0] }}</div>
+          <div>{{ pushDatas.release_date }}</div>
           <span class="ml-1">ㆍ</span>
           <div>{{ pushDatas.runtime }} 분</div>
           <span class="ml-1">ㆍ</span>
@@ -79,21 +79,22 @@
 <script>
 import { ref, reactive } from "vue";
 import axios from "axios";
+// import dotenv from "dotenv";
 
 export default {
   props: ["id"],
   setup(props) {
-    const pushDatas = ref();
+    const pushDatas = ref([]);
     const pushCredits = ref();
     const pushVideos = ref();
 
     const baseURL = "https://api.themoviedb.org/3/";
-    const apiKey = "5274ef63c79e5b4919fe548a60539120";
     const backdropEndpoint =
       "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/";
     const posterEndpoint = "https://image.tmdb.org/t/p/w300/";
     const profileEndpoint = "https://image.tmdb.org/t/p/w276_and_h350_face/";
     const youtubeEndpoint = "https://www.youtube.com/embed/";
+    const apiKey = import.meta.env.VITE_SOME_KEY;
 
     axios
       .get(`${baseURL}movie/${props.id}?api_key=${apiKey}&language=en-US`)

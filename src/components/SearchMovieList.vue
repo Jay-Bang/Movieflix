@@ -38,8 +38,8 @@ export default {
     const searchkeyword = ref("");
 
     const baseURL = "https://api.themoviedb.org/3/";
-    const apiKey = "5274ef63c79e5b4919fe548a60539120";
     const posterEndpoint = "https://image.tmdb.org/t/p/w300/";
+    const apiKey = import.meta.env.VITE_SOME_KEY;
 
     const goDetail = (id) => {
       router.push("/detail/" + id);
@@ -56,7 +56,7 @@ export default {
           )
           .then((res) => {
             pushDatas.value = res.data.results;
-            console.log(res.data);
+            // console.log(res.data);
           })
           .catch((error) => {
             console.log("에러 데이터 : " + error.data);

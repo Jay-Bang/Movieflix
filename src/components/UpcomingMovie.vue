@@ -37,8 +37,8 @@ export default {
     const pushDatas = ref();
 
     const baseURL = "https://api.themoviedb.org/3/";
-    const apiKey = "5274ef63c79e5b4919fe548a60539120";
     const posterEndpoint = "https://image.tmdb.org/t/p/w300/";
+    const apiKey = import.meta.env.VITE_SOME_KEY;
 
     const goDetail = (id) => {
       router.push("/detail/" + id);
