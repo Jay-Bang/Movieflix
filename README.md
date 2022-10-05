@@ -35,14 +35,17 @@
 
 
 
-1. 영화 디테일 페이지
+2. 영화 디테일 페이지
 
 ![Screenshot 2022-10-05 at 18 51 13](https://user-images.githubusercontent.com/102448185/194033835-20a320dc-f6c0-435b-9815-94e9aed46cd5.jpg)
 
 
-1. 검색 페이지
+3. 검색 페이지
 
 ![Screenshot 2022-10-05 at 18 51 29](https://user-images.githubusercontent.com/102448185/194033874-bf389ba4-29e4-4ac2-9655-d68d69b4b42b.jpg)
+
+
+
 
 
 This template should help get you started developing with Vue 3 in Vite.
